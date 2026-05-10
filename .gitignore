@@ -1,0 +1,14 @@
+# Python System Files
+__pycache__/
+*.pyc
+
+# Personal Excel Data
+*.xlsx
+*.xls
+*.csv
+
+# Personal Attachments
+*.pdf
+
+# Generated Log Reports
+Email_Dispatch_Report.txt
