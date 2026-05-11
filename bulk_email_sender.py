@@ -40,13 +40,13 @@ def send_bulk_emails():
 
     for index, row in df.iterrows():
         try:
-            # --- Define columns (A=0, C=2, N=13, O=14, R=17, U=20) ---
+            # --- Define columns ---
             # These can be customized based on your Excel structure
-            first_name = str(row.iloc[2]).strip()    # Column C
-            last_name = str(row.iloc[17]).strip()    # Column R
-            email = str(row.iloc[20]).strip()        # Column U
-            skip_val = str(row.iloc[14]).strip()     # Column O
-            alt_msg_val = str(row.iloc[13]).strip()  # Column N
+            first_name = str(row.iloc[0]).strip()    # Column A
+            last_name = str(row.iloc[1]).strip()    # Column B
+            email = str(row.iloc[2]).strip()        # Column C
+            skip_val = str(row.iloc[3]).strip()     # Column D
+            alt_msg_val = str(row.iloc[4]).strip()  # Column E
 
             # --- Skip condition (Column O) ---
             if skip_val.upper() == 'V':
