@@ -14,7 +14,7 @@ To ensure the script works correctly, your Excel file (`.xlsx`) must follow this
 
 | Column | Data Field | Description |
 | :--- | :--- | :--- |
-| **C** | First Name | Used for the email greeting (e.g., "Hello John"). |
+| **C** | First Name | Used for the email greeting. |
 | **N** | Message Flag | Enter **'V'** to send the "Action Required" template. Leave empty for the standard report. |
 | **O** | Skip Flag | Enter **'V'** to skip this row entirely during execution. |
 | **R** | Last Name | Used for the greeting and to find the attachment (e.g., `Smith.pdf`). |
