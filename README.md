@@ -14,11 +14,11 @@ To ensure the script works correctly, your Excel file (`.xlsx`) must follow this
 
 | Column | Data Field | Description |
 | :--- | :--- | :--- |
-| **C** | First Name | Used for the email greeting. |
-| **N** | Message Flag | Enter **'V'** to send the "Action Required" template. Leave empty for the standard report. |
-| **O** | Skip Flag | Enter **'V'** to skip this row entirely during execution. |
-| **R** | Last Name | Used for the greeting and to find the attachment (e.g., `Smith.pdf`). |
-| **U** | Email | The recipient's email address. |
+| **A** | First Name | Used for the email greeting. |
+| **B** | Last Name | Used for the greeting and to find the attachment (e.g., `Smith.pdf`). |
+| **C** | Email | The recipient's email address. |
+| **D** | Message Flag | Enter **'V'** to send the "Action Required" template. Leave empty for the standard report. |
+| **E** | Skip Flag | Enter **'V'** to skip this row entirely during execution. |
 
 ## Prerequisites
 - **Operating System:** Windows (required for `pywin32` Outlook integration).
